@@ -1,0 +1,33 @@
+{
+  "name": "vue-sample",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest --dom",
+    "coverage": "vitest --dom run --coverage"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.5.0",
+    "@heroicons/vue": "^1.0.5",
+    "@vue/test-utils": "^2.0.0-rc.17",
+    "c8": "^7.11.0",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-plugin-vue": "^8.5.0",
+    "happy-dom": "^2.41.0",
+    "pinia": "^2.0.11",
+    "prettier": "^2.5.1",
+    "vue": "^3.2.25",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.2.0",
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.7",
+    "tailwindcss": "^3.0.23",
+    "vite": "^2.8.0",
+    "vitest": "^0.5.5"
+  }
+}
